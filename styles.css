@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+input, button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-list {
+    margin-top: 1rem;
+}
+
+.review-list li {
+    border-left: 4px solid #007bff;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review-list strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.review-list p {
+    margin: 0.5rem 0;
+}
+
+.rating {
+    color: #ff9800;
+    font-weight: bold;
+}
+.movie-search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.movie-search input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+
+.movie-search button {
+    flex-shrink: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+.movie-list {
+    margin-top: 1rem;
+}
+
+.movie-list li {
+    padding: 0.75rem 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.2s;
+}
+
+.movie-list li:hover {
+    background-color: #e9ecef;
+}
+.movie-details {
+    margin-top: 2rem;
+}
+
+.movie-details h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.movie-details p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.movie-details .review-form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-details .review-form textarea {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.movie-details .review-form button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.movie-details .review-form button:hover {
+    background-color: #0056b3;
+}
